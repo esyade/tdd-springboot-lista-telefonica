@@ -19,7 +19,6 @@ class EnderecoTeste {
 	void verificaLogradouroVazio() {
 		
 		String resultado = "Conjunto Maguari";
-		this.endereco = new Endereco();
 		this.endereco.setLogradouro(resultado);
 		assertEquals(resultado, this.endereco.getLogradouro());
 	}
