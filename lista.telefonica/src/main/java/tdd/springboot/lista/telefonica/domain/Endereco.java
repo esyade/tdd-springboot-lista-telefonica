@@ -11,7 +11,6 @@ public class Endereco implements Serializable {
 
 	public void setLogradouro(String string) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	public short getLogradouro() {

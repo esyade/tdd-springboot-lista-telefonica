@@ -15,6 +15,7 @@ class EnderecoTeste {
 
 	@Test
 	void verificaLogradouroVazio() {
+		
 		String resultado = "Conjunto Maguari";
 		Endereco endereco = new Endereco();
 		endereco.setLogradouro(resultado);
