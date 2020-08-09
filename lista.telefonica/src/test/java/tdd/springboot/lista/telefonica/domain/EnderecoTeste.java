@@ -8,18 +8,20 @@ import org.junit.jupiter.api.Test;
 class EnderecoTeste {
 
 
+	private Endereco endereco;
+
 	@BeforeEach
 	void setUp() throws Exception {
-		Endereco endereco = new Endereco();
+		this.endereco = new Endereco();
 	}
 
 	@Test
 	void verificaLogradouroVazio() {
 		
 		String resultado = "Conjunto Maguari";
-		Endereco endereco = new Endereco();
-		endereco.setLogradouro(resultado);
-		assertEquals(resultado, endereco.getLogradouro());
+		this.endereco = new Endereco();
+		this.endereco.setLogradouro(resultado);
+		assertEquals(resultado, this.endereco.getLogradouro());
 	}
 
 }

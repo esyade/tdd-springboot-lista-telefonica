@@ -10,9 +10,9 @@ public class Endereco implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String logradouro;
 
-	public void setLogradouro(String string) {
+	public void setLogradouro(String logradouro) {
 		// TODO Auto-generated method stub
-		this.logradouro = string ;
+		this.logradouro = logradouro ;
 	}
 
 	public String getLogradouro() {
