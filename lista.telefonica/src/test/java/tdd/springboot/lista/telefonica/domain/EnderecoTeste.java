@@ -24,7 +24,7 @@ class EnderecoTeste {
 	
 	@Test
 	void verificaNumero() {
-		Integer valor = 2020;
+		int valor = 2020;
 		this.endereco.setNumero(valor);
 		assertEquals(valor, this.endereco.getNumero());
 	}
