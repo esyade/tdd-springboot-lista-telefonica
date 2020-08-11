@@ -10,6 +10,7 @@ public class Endereco implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String logradouro;
 	private int numero;
+	private String complemento;
 
 	public void setLogradouro(String logradouro) {
 		this.logradouro = logradouro ;
@@ -28,12 +29,12 @@ public class Endereco implements Serializable {
 	}
 
 	public void setComplemento(String complemento) {
-		
+		this.complemento = complemento;
 	}
 
 	public Object getComplemento() {
 		// TODO Auto-generated method stub
-		return null;
+		return this.complemento;
 	}
 	
 	

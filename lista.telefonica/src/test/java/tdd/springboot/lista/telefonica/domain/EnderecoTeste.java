@@ -16,7 +16,6 @@ class EnderecoTeste {
 
 	@Test
 	void verificaLogradouro() {
-		
 		String resultado = "Conjunto Maguari";
 		this.endereco.setLogradouro(resultado);
 		assertEquals(resultado, this.endereco.getLogradouro());
