@@ -32,7 +32,7 @@ public class Endereco implements Serializable {
 		this.complemento = complemento;
 	}
 
-	public Object getComplemento() {
+	public String getComplemento() {
 		// TODO Auto-generated method stub
 		return this.complemento;
 	}
