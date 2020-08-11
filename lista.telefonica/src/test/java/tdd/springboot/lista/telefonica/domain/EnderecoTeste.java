@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 
 class EnderecoTeste {
 
-
 	private Endereco endereco;
 
 	@BeforeEach
@@ -16,11 +15,19 @@ class EnderecoTeste {
 	}
 
 	@Test
-	void verificaLogradouroVazio() {
+	void verificaLogradouro() {
 		
 		String resultado = "Conjunto Maguari";
 		this.endereco.setLogradouro(resultado);
 		assertEquals(resultado, this.endereco.getLogradouro());
 	}
+	
+	@Test
+	void verificaNumero() {
+		Integer valor = 2020;
+		this.endereco.setNumero(valor);
+		assertEquals(valor, this.endereco.getNumero());
+	}
+	
 
 }

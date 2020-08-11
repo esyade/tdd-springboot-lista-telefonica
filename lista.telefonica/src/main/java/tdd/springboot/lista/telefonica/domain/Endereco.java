@@ -19,6 +19,16 @@ public class Endereco implements Serializable {
 		// TODO Auto-generated method stub
 		return this.logradouro;
 	}
+
+	public void setNumero(Integer valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Integer getNumero() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 
