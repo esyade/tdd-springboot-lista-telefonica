@@ -9,6 +9,7 @@ public class Endereco implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	private String logradouro;
+	private Integer numero;
 
 	public void setLogradouro(String logradouro) {
 		// TODO Auto-generated method stub
@@ -22,12 +23,12 @@ public class Endereco implements Serializable {
 
 	public void setNumero(Integer valor) {
 		// TODO Auto-generated method stub
-		
+		this.numero = valor;
 	}
 
 	public Integer getNumero() {
 		// TODO Auto-generated method stub
-		return null;
+		return numero;
 	}
 	
 	
