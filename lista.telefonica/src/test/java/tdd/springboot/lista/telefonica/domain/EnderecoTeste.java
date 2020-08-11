@@ -29,5 +29,12 @@ class EnderecoTeste {
 		assertEquals(valor, this.endereco.getNumero());
 	}
 	
+	@Test
+	void verificaComplemento(){
+		String complemento = "Augusto Montenegro";
+		this.endereco.setComplemento(complemento);
+		assertEquals(complemento, this.endereco.getComplemento());
+	}
+	
 
 }

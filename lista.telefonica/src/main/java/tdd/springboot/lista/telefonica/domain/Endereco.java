@@ -12,23 +12,28 @@ public class Endereco implements Serializable {
 	private int numero;
 
 	public void setLogradouro(String logradouro) {
-		// TODO Auto-generated method stub
 		this.logradouro = logradouro ;
 	}
 
 	public String getLogradouro() {
-		// TODO Auto-generated method stub
 		return this.logradouro;
 	}
 
 	public void setNumero(int valor) {
-		// TODO Auto-generated method stub
 		this.numero = valor;
 	}
 
 	public int getNumero() {
-		// TODO Auto-generated method stub
 		return numero;
+	}
+
+	public void setComplemento(String complemento) {
+		
+	}
+
+	public Object getComplemento() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	
